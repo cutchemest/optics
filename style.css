@@ -55,6 +55,23 @@ body{
 }
 
 .services{
-	display: flex;
-	margin: 3.77rem 0;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	height: auto;
 }
+
+.exam,
+	.fitting,
+		.delivery{
+			margin: 3.77rem 0;
+			
+		}
+
+.exam img,
+	.fitting img,
+		.delivery img{
+			
+			
+		}
