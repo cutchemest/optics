@@ -55,23 +55,34 @@ body{
 }
 
 .services{
-	display: inline-flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
 	width: 100%;
 	height: auto;
+	margin: 3.77rem 0;
 }
 
 .exam,
 	.fitting,
 		.delivery{
-			margin: 3.77rem 0;
-			
+			padding: 1.54rem 0;
+			height: 8rem;
+			width: 3.5rem;
 		}
 
 .exam img,
 	.fitting img,
 		.delivery img{
+			width: 100%;
+			height: auto;
+		}
+		
+.exam p,
+	.fitting p,
+		.delivery p{
+			font-size: 0.77rem;
 			
 			
 		}
