@@ -1,4 +1,5 @@
 html{
+	
 	font-size: 18px;
 	line-height: 1.4;
 	
@@ -24,20 +25,21 @@ body{
 }
 
 .nav h1{
-	margin: 1rem 2rem;
-	padding: 0 2rem;
+	padding: 1rem;
 }
 
 .nav img{
 	height: 1.5rem;
-	margin: 1rem 2rem;
-	padding-right: 2rem;
+	
+	padding-left: 2rem;
+	padding-right: 1rem;
 }
 
 .menu{
 	z-index: 2;
 }
-	
+
+
 .background{
 	display: flex;
 	background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
@@ -147,6 +149,8 @@ body{
 	
 }
 
-.footer p{
-	z-index: -2;
-}
+.siteTitle,
+	.footer p
+			{
+		z-index: -2;
+	}
