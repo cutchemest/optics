@@ -69,18 +69,20 @@ body{
 	width: 100%;
 	height: auto;
 	margin-top: 3.77rem;
+	margin-bottom: 2.5rem;
 }
 
 .exam,
 	.fitting,
 		.delivery{
-			height: 8rem;
+			
 			width: 3.5rem;
 		}
 		
 .exam,
-	.fitting{
-	padding: 1.54rem 0;
+	.fitting,
+		.delivery{
+	padding: 1.2rem 0;
 }
 
 .exam img,
@@ -90,9 +92,7 @@ body{
 			height: auto;
 		}
 		
-.exam p,
-	.fitting p,
-		.delivery p{
+.serviceText{
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -146,14 +146,14 @@ body{
 	margin-left: 25%;
 	height: 1.5rem;
 	width:auto;
-	z-index: 3;
+	
 	
 }
 
 
 	.footer p
 			{
-		z-index: -2;
+		display: none;
 	}
 	
 @media only screen and (min-width: 768px){
@@ -215,6 +215,8 @@ body{
 		height: 8rem;
 		width: 100%;
 		margin-top: 0;
+		margin-bottom: 0;
+		overflow: hidden;
 	}
 	
 	.exam{
@@ -233,11 +235,29 @@ body{
 		padding-bottom: 1.5rem;
 	}
 	
-	.exam p,
-		.fitting p,
-			.delivery p{
-		display: inline-block;
-		vertical-align: text-bottom;
+	.serviceText{
+			
+		}
+	
+	.about{
+		display: inline-flex;
+		flex-direction: column;
+		width: 35%;
+		margin: 0 5%;
+		justify-content: center;
 	}
 	
+	.footer{
+		display: flex;
+		justify-content: flex-start;
+	}
+	
+	.footer p{
+		display: flex;
+		width: 100%;
+		height: auto;
+		font-size: .75rem;
+		margin-left: 1rem;
+		font-weight: bold;
+	}
 } 
